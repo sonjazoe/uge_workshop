@@ -1,0 +1,47 @@
+***current working directory (very important to know where you are at all times)
+Q- quits and brings you to your hoe directory
+Control U- clears everything quickly
+Control C- kills infinite loops
+Include spaces with \ or wrap in quotes
+.. means go up one directory
+. my current working directory (will list the path to where you are)
+Tilde : always refers to the home directory
+Windows ($ man) will bring you to the manual
+Root: top most
+Flags: modifiers ex a, r (reverse), t (time), l (long form)
+$history: shows your oldest commands on the bottom to the most recent on the top
+$ history | less: shows you one page of your history (output for the first becomes input for the second)
+Summary of less command (easy to search)
+$ history | sort : will sort the history alphabetically
+cd = home directory
+See the content of the file (piping)
+$ history > moving_around.txt
+$ nano moving_around.txt
+Ctrl s will quit nano
+$ subl moving_around.txt
+$ less moving_around.txt
+
+>=override
+>>=append
+
+# list the current working directory in long format ll
+# list the current working directory ls
+# open the file in the less pager less moving_arount.txt
+$ mv moving_around.txt uge_workshop/
+$ mv uge_workshop/moving_around.txt uge_workshop/unix_notes.txt
+
+
+> Redirect operatory send the output of a command on the left side to a files name on the right
+>>
+$ git init: initialized empy Git repository in/home/cewing/uge_workshop.
+****modify, add, commit
+Git command:init
+The init command creates a brand new repository in your current working directory
+log
+Subl. Opens up current working directory
+
+Git branch git-notes: it will create a branch (label) that will point to (head, master, git-notes) will point to whatever head it was pointing to.
+Git branch: tells us all of the branches we have and the active one
+Git checkout git-notes: we switch to that branch and now it is the active branch
+
+
